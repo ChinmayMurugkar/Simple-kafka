@@ -1,6 +1,6 @@
 # Simple-Kafka
 
-Kafka verion 0.9
+Confluent Kafka verion 0.9
 
 Start the zookeeper
 
