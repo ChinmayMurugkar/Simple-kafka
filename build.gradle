@@ -1,0 +1,24 @@
+group 'Simple-Kafka'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'org.apache.kafka:kafka-clients:0.9.0.0'
+    compile 'com.google.guava:guava:19.0'
+    compile 'org.hdrhistogram:HdrHistogram:2.1.8'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.7.3'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
